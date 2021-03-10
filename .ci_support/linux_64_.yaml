@@ -13,13 +13,16 @@ channel_targets:
 docker_image:
 - quay.io/condaforge/linux-anvil-comp7
 glib:
-- '2.66'
+- '2'
 pin_run_as_build:
   cairo:
     max_pin: x.x
   poppler:
     max_pin: x.x
 poppler:
-- '0.89'
+- '21.03'
 target_platform:
 - linux-64
+zip_keys:
+- - cdt_name
+  - docker_image
