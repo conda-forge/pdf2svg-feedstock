@@ -3,7 +3,7 @@ About pdf2svg
 
 Home: https://github.com/dawbarton/pdf2svg
 
-Package license: GPL-2.0
+Package license: GPL-2.0-only
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pdf2svg-feedstock/blob/master/LICENSE.txt)
 
