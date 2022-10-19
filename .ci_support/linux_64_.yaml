@@ -1,9 +1,9 @@
 c_compiler:
 - gcc
 c_compiler_version:
-- '9'
+- '10'
 cairo:
-- '1.16'
+- '1'
 cdt_name:
 - cos6
 channel_sources:
@@ -11,18 +11,13 @@ channel_sources:
 channel_targets:
 - conda-forge main
 docker_image:
-- quay.io/condaforge/linux-anvil-comp7
+- quay.io/condaforge/linux-anvil-cos7-x86_64
 glib:
 - '2'
 pin_run_as_build:
-  cairo:
-    max_pin: x.x
   poppler:
     max_pin: x.x
 poppler:
-- '21.11'
+- '22.10'
 target_platform:
 - linux-64
-zip_keys:
-- - cdt_name
-  - docker_image
