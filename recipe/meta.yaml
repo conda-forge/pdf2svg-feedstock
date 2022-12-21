@@ -16,19 +16,18 @@ build:
 requirements:
   build:
     - {{ compiler('c') }}
-  host:
+    - make
     - m4
     - autoconf
     - automake
     - libtool
     - pkg-config
+  host:
     - poppler
     - cairo
     - glib
   run:
     - poppler
-    - cairo
-    - glib
 
 test:
   commands:
