@@ -10,25 +10,24 @@ source:
   sha256: 4fb186070b3e7d33a51821e3307dce57300a062570d028feccd4e628d50dea8a
 
 build:
-  number: 9
+  number: 10
   skip: True  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
-  host:
+    - make
     - m4
     - autoconf
     - automake
     - libtool
     - pkg-config
+  host:
     - poppler
     - cairo
     - glib
   run:
     - poppler
-    - cairo
-    - glib
 
 test:
   commands:
