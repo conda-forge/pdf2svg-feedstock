@@ -171,6 +171,3 @@ Feedstock Maintainers
 
 * [@ostrokach](https://github.com/ostrokach/)
 
-
-<!-- dummy commit to enable rerendering -->
-
