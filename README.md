@@ -1,11 +1,11 @@
-About pdf2svg
-=============
+About pdf2svg-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pdf2svg-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dawbarton/pdf2svg
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pdf2svg-feedstock/blob/main/LICENSE.txt)
 
 Summary: A simple PDF to SVG converter using the Poppler and Cairo libraries
 
