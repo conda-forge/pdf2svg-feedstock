@@ -21,6 +21,6 @@ glib:
 macos_machine:
 - x86_64-apple-darwin13.4.0
 poppler:
-- '24.11'
+- '24.12'
 target_platform:
 - osx-64
