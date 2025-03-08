@@ -21,6 +21,6 @@ glib:
 macos_machine:
 - arm64-apple-darwin20.0.0
 poppler:
-- '24.11'
+- '24.12'
 target_platform:
 - osx-arm64
