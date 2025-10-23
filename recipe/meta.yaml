@@ -11,7 +11,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [win]
+  skip: True  # [win]
 
 requirements:
   build:
@@ -44,4 +44,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - anjos
     - ostrokach
