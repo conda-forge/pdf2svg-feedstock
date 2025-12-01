@@ -17,6 +17,6 @@ docker_image:
 glib:
 - '2'
 poppler:
-- '25.07'
+- '25.11'
 target_platform:
 - linux-64
