@@ -1,0 +1,50 @@
+schema_version: 1
+
+context:
+  name: pdf2svg
+  version: "0.2.4"
+
+package:
+  name: ${{ name|lower }}
+  version: ${{ version }}
+
+source:
+  url: https://github.com/dawbarton/${{ name }}/archive/v${{ version }}.tar.gz
+  sha256: fd765256f18b5890639e93cabdf631b640966ed1ea9ebd561aede9d3be2155e4
+
+build:
+  number: 8
+  skip: win
+
+requirements:
+  build:
+    - ${{ compiler('c') }}
+    - ${{ stdlib("c") }}
+    - make
+    - m4
+    - autoconf
+    - automake
+    - libtool
+    - pkgconf
+  host:
+    - poppler
+    - cairo
+    - glib
+  run:
+    - poppler
+
+tests:
+  - script:
+      - which pdf2svg
+      - pdf2svg | grep Usage
+
+about:
+  license: GPL-2.0-only
+  license_file: LICENSE.txt
+  summary: A simple PDF to SVG converter using the Poppler and Cairo libraries
+  homepage: https://github.com/dawbarton/pdf2svg
+
+extra:
+  recipe-maintainers:
+    - anjos
+    - ostrokach
